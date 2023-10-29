@@ -1,0 +1,8 @@
+stations_df <- bdd_station[, c("Station_id", "Nom_contrat", "Nom_station", "Adresse_station", "Latitude", "Longitude")]
+
+dbWriteTable(con, 'STATIONS', stations_df)
+
+resultat <- dbSendQuery(con, "SELECT * FROM STATIONS") 
+dbFetch(resultat)
+
+dbReadTable(con, 'STATIONS')
