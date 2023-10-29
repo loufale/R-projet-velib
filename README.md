@@ -9,6 +9,6 @@ Documentation Technique_fonctionelle  = documentation expliquant le fonctionneme
 
 Velibre.R  = script de l'api R shiny
 
-code création table = code pour la création de la table
+code_creation_table.txt = code pour la création de la table
 
 Code_postaux.csv  = fichier contenant les données exploitées par l'api
